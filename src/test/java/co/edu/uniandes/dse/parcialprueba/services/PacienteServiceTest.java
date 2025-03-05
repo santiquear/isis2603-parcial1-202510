@@ -16,6 +16,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.context.annotation.Import;
 
 import co.edu.uniandes.dse.parcialprueba.entities.PacienteEntity;
+import co.edu.uniandes.dse.parcialprueba.exceptions.EntityNotFoundException;
 import co.edu.uniandes.dse.parcialprueba.exceptions.IllegalOperationException;
 import jakarta.transaction.Transactional;
 import uk.co.jemos.podam.api.PodamFactory;
